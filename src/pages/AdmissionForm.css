@@ -1,0 +1,39 @@
+.form {
+  margin: 20px;
+  padding: 20px;
+  color: #469050;
+  font-size: 20px;
+}
+
+.page {
+  width: 740px;
+  padding: 0 20px 20px 20px;
+  margin: 20px auto 20px auto !important;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  border-color: transparent;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  color: #24622c;
+  font-size: 2em;
+}
+
+.page-header {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  line-height: normal;
+  z-index: 1;
+  margin-top: 20px;
+  width: 700px;
+  padding: 10px 10px;
+  /* font-size: 2em; */
+}
+
+span {
+  font-size: 10pt;
+}
