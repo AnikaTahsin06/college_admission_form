@@ -7,7 +7,6 @@ const AdmissionForm = () => {
       <div className="page">
         <div className="page-header">
           <h1>College Admission Form</h1>
-          <br />
           <span>
             If you'd like to apply to our college, please fill in this College
             Admission Form and we will contact you as soon as possible.
@@ -41,22 +40,20 @@ const AdmissionForm = () => {
                       value={"Computer Hardware Technician2"}
                     />
                     <span className="option-text">
-                      Computer Hardware Technician2
+                      Computer Network Technician
                     </span>
                   </label>
                 </div>
               </div>
               <div className="input-row">
                 <div className="choice">
-                  <label className="choice">
+                  <label className="choic1e">
                     <input
                       type="checkbox"
                       className="i123-input"
                       value={"Computer Hardware Technician3"}
                     />
-                    <span className="option-text">
-                      Computer Hardware Technician3
-                    </span>
+                    <span className="option-text">General Electrician</span>
                   </label>
                 </div>
               </div>
@@ -66,13 +63,11 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Full Name of Applicant</label>
               <div className="input-row">
-                <input className="i123-input" type="text" placeholder="First" />
-                <input
-                  className="i123-input"
-                  type="text"
-                  placeholder="Middle"
-                />
-                <input className="i123-input" type="text" placeholder="Last" />
+                <input className="first" type="text" placeholder="First" />
+
+                <input className="middle" type="text" placeholder="Middle" />
+
+                <input className="last" type="text" placeholder="Last" />
               </div>
             </div>
           </div>
@@ -80,13 +75,9 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Parent / Guardian's Name</label>
               <div className="input-row">
-                <input className="i123-input" type="text" placeholder="First" />
-                <input
-                  className="i123-input"
-                  type="text"
-                  placeholder="Middle"
-                />
-                <input className="i123-input" type="text" placeholder="Last" />
+                <input className="first" type="text" placeholder="First" />
+                <input className="middle" type="text" placeholder="Middle" />
+                <input className="last" type="text" placeholder="Last" />
               </div>
             </div>
           </div>
@@ -94,9 +85,43 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Parent / Guardian's Occupation</label>
               <div className="input-row">
-                <div className="input-container">
-                  <input className="i123input" type="text" />
-                </div>
+                <input className="parent" type="text" />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="control">
+              <label className="label">Date of birth</label>
+              <div className="input-row">
+                <input
+                  className="birthday"
+                  type="date"
+                  placeholder="MM/DD/YYYY"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="control">
+              <label className="label">Permanent Address</label>
+              <div className="input-row">
+                <input
+                  className="street"
+                  type="text"
+                  placeholder="Street Address"
+                />
+              </div>
+              <div className="input-row">
+                <input className="city" type="text" placeholder="City" />
+                <input className="state" type="text" placeholder="State" />
+              </div>
+              <div className="input-row">
+                <input
+                  className="postal"
+                  type="text"
+                  placeholder="Postal/ Zip Code"
+                />
+                <input className="country" type="text" placeholder="Country" />
               </div>
             </div>
           </div>

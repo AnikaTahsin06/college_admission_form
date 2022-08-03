@@ -1,8 +1,13 @@
 .form {
   color: #469050;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  display: block;
   font-size: 20px;
-  margin: 20px;
-  padding: 20px;
+  /* margin: 20px; */
+  padding-top: 20px;
+  min-height: 100%;
+  box-sizing: border-box;
 }
 
 .page {
@@ -29,17 +34,20 @@ h1 {
   display: block;
   line-height: normal;
   z-index: 1;
-  /* margin-top: 20px; */
   width: 700px;
   padding: 10px 10px;
-  /* font-size: 2em; */
+}
+
+span {
+  font-size: 10pt;
 }
 
 .page-body {
   display: block;
+  width: 700px;
 }
 
-.container {
+/* .container {
   padding: 0 !important;
   border-width: 0 !important;
   position: relative;
@@ -49,8 +57,7 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   line-height: 0;
-  /* font-size: 2em; */
-}
+} */
 
 .control {
   display: inline-block;
@@ -65,15 +72,10 @@ h1 {
   color: #469050;
 }
 
-span {
-  font-size: 10pt;
-  width: 700px;
-}
-
 .label {
-  color: #24622c;
+  color: #469050;
   padding-bottom: 0 !important;
-  font-family: Quicksand;
+  font-family: "Quicksand" sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
@@ -88,6 +90,10 @@ span {
   text-overflow: ellipsis;
 }
 
+.label:hover {
+  color: #24622c;
+}
+
 .input-row {
   margin-top: 8px !important;
   white-space: nowrap;
@@ -96,4 +102,79 @@ span {
   padding-bottom: 1px;
   display: block;
   color: #469050;
+  width: 700px;
+}
+
+.option-text {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.2em;
+}
+
+.first {
+  position: relative;
+  height: 55px;
+  width: 30%;
+}
+
+.middle {
+  height: 55px;
+  position: relative;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.last {
+  height: 55px;
+  position: relative;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.parent {
+  width: 690px;
+  height: 55px;
+  font-size: 40px;
+  /* border-radius: 4px; */
+}
+
+.birthday {
+  width: 690px;
+  height: 55px;
+  font-size: 40px;
+  /* border-radius: 4px; */
+}
+
+.street {
+  position: relative;
+  width: 690px;
+  height: 55px;
+  font-size: 40px;
+  /* border-radius: 4px; */
+}
+
+.city {
+  position: relative;
+  width: 48%;
+  height: 55px;
+}
+.state {
+  position: relative;
+  width: 46.5%;
+  height: 55px;
+  margin-left: 22px;
+}
+
+.postal {
+  position: relative;
+  width: 48%;
+  height: 55px;
+}
+.country {
+  position: relative;
+  width: 46.5%;
+  height: 55px;
+  margin-left: 22px;
 }
