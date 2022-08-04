@@ -6,6 +6,7 @@
   font-size: 20px;
   /* margin: 20px; */
   padding-top: 20px;
+  /* padding-left: 60px; */
   min-height: 100%;
   box-sizing: border-box;
 }
@@ -136,14 +137,32 @@ span {
 .parent {
   width: 690px;
   height: 55px;
-  font-size: 40px;
+  font-size: 20px;
   /* border-radius: 4px; */
+}
+
+.phone {
+  width: 690px;
+  height: 55px;
+  font-size: 20px;
+}
+
+.academic {
+  width: 690px;
+  height: 120px;
+  font-size: 20px;
+  background-color: #e1f8f3;
+}
+.signature {
+  width: 690px;
+  height: 95px;
+  font-size: 20px;
 }
 
 .birthday {
   width: 690px;
   height: 55px;
-  font-size: 40px;
+  font-size: 20px;
   /* border-radius: 4px; */
 }
 
@@ -151,7 +170,7 @@ span {
   position: relative;
   width: 690px;
   height: 55px;
-  font-size: 40px;
+  font-size: 20px;
   /* border-radius: 4px; */
 }
 
@@ -177,4 +196,36 @@ span {
   width: 46.5%;
   height: 55px;
   margin-left: 22px;
+}
+
+button {
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 2em;
+  padding: 0 50px;
+  margin: 0 10px 0 calc(20px / 2);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  min-height: calc(8px + 2em + 8px);
+  margin-top: 10px;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+.submit {
+  background-color: #24622c;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #469050;
+  border-color: transparent;
+  color: #ffffff;
 }

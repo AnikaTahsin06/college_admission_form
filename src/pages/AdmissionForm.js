@@ -125,6 +125,53 @@ const AdmissionForm = () => {
               </div>
             </div>
           </div>
+          <div className="container">
+            <div className="control">
+              <label className="label">Applicant's Phone</label>
+              <div className="input-row">
+                <input
+                  className="phone"
+                  type="text"
+                  placeholder="### ### ####"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="control">
+              <label className="label">Parent / Guardian's Phone</label>
+              <div className="input-row">
+                <input
+                  className="phone"
+                  type="text"
+                  placeholder="### ### ####"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="control">
+              <label className="label">Academic Qualifications</label>
+              <div className="input-row">
+                <textarea className="academic"></textarea>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="control">
+              <label className="label">Applicant's Signature</label>
+              <div className="input-row">
+                <input className="signature" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="page-footer">
+          <div className="control">
+            <button className="submit" type="submit">
+              SUBMIT THE COLLEGE ADMISSION FORM
+            </button>
+          </div>
         </div>
       </div>
     </form>
