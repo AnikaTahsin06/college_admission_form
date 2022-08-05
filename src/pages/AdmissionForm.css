@@ -120,12 +120,24 @@ input::placeholder {
   color: #469050;
   font-family: "Quicksand", sans-serif;
 }
+
 input:hover {
   background-color: white;
 }
 input:focus {
   background-color: white;
   border-color: #469050;
+}
+
+input[type="date"] {
+  text-transform: uppercase;
+  color: #469050;
+  font-family: "Quicksand", sans-serif;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
 }
 
 .option-text {
@@ -137,42 +149,27 @@ input:focus {
   padding-left: 10px;
 }
 
-.check_box {
-  width: 24px;
-  height: 24px;
-}
-
-.first {
-  position: relative;
+.applicant_box {
   height: 60px;
   width: 28%;
 }
 
-.middle {
-  height: 60px;
-  position: relative;
+.margin1 {
   margin-left: 20px;
-  width: 28%;
 }
 
-.last {
-  height: 60px;
-  position: relative;
-  margin-left: 20px;
-  width: 28%;
-}
-
-.parent {
+.long_inputfield {
   width: 673.5px;
   height: 60px;
   font-size: 20px;
-  /* border-radius: 4px; */
 }
 
-.phone {
-  width: 673.5px;
+.address_half {
+  width: 45%;
   height: 60px;
-  font-size: 20px;
+}
+.margin2 {
+  margin-left: 22px;
 }
 
 .academic {
@@ -216,45 +213,6 @@ input:focus {
   pointer-events: none;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.birthday {
-  width: 673.5px;
-  height: 60px;
-  font-size: 20px;
-  /* border-radius: 4px; */
-}
-
-.street {
-  position: relative;
-  width: 673.5px;
-  height: 60px;
-  font-size: 20px;
-  /* border-radius: 4px; */
-}
-
-.city {
-  position: relative;
-  width: 45%;
-  height: 60px;
-}
-.state {
-  position: relative;
-  width: 45%;
-  height: 60px;
-  margin-left: 22px;
-}
-
-.postal {
-  position: relative;
-  width: 45%;
-  height: 60px;
-}
-.country {
-  position: relative;
-  width: 45%;
-  height: 60px;
-  margin-left: 22px;
 }
 
 .page-footer {

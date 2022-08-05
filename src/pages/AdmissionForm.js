@@ -63,11 +63,23 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Full Name of Applicant</label>
               <div className="input-row">
-                <input className="first" type="text" placeholder="First" />
+                <input
+                  className="applicant_box"
+                  type="text"
+                  placeholder="First"
+                />
 
-                <input className="middle" type="text" placeholder="Middle" />
+                <input
+                  className="applicant_box margin1"
+                  type="text"
+                  placeholder="Middle"
+                />
 
-                <input className="last" type="text" placeholder="Last" />
+                <input
+                  className="applicant_box margin1"
+                  type="text"
+                  placeholder="Last"
+                />
               </div>
             </div>
           </div>
@@ -75,9 +87,21 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Parent / Guardian's Name</label>
               <div className="input-row">
-                <input className="first" type="text" placeholder="First" />
-                <input className="middle" type="text" placeholder="Middle" />
-                <input className="last" type="text" placeholder="Last" />
+                <input
+                  className="applicant_box"
+                  type="text"
+                  placeholder="First"
+                />
+                <input
+                  className="applicant_box margin1"
+                  type="text"
+                  placeholder="Middle"
+                />
+                <input
+                  className="applicant_box margin1"
+                  type="text"
+                  placeholder="Last"
+                />
               </div>
             </div>
           </div>
@@ -85,7 +109,7 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Parent / Guardian's Occupation</label>
               <div className="input-row">
-                <input className="parent" type="text" />
+                <input className="long_inputfield" type="text" />
               </div>
             </div>
           </div>
@@ -94,7 +118,7 @@ const AdmissionForm = () => {
               <label className="label">Date of birth</label>
               <div className="input-row">
                 <input
-                  className="birthday"
+                  className="long_inputfield"
                   type="date"
                   placeholder="MM/DD/YYYY"
                 />
@@ -106,22 +130,34 @@ const AdmissionForm = () => {
               <label className="label">Permanent Address</label>
               <div className="input-row">
                 <input
-                  className="street"
+                  className="long_inputfield"
                   type="text"
                   placeholder="Street Address"
                 />
               </div>
               <div className="input-row">
-                <input className="city" type="text" placeholder="City" />
-                <input className="state" type="text" placeholder="State" />
+                <input
+                  className="address_half"
+                  type="text"
+                  placeholder="City"
+                />
+                <input
+                  className="address_half margin2"
+                  type="text"
+                  placeholder="State"
+                />
               </div>
               <div className="input-row">
                 <input
-                  className="postal"
+                  className="address_half"
                   type="text"
                   placeholder="Postal/ Zip Code"
                 />
-                <input className="country" type="text" placeholder="Country" />
+                <input
+                  className="address_half margin2"
+                  type="text"
+                  placeholder="Country"
+                />
               </div>
             </div>
           </div>
@@ -130,7 +166,7 @@ const AdmissionForm = () => {
               <label className="label">Applicant's Phone</label>
               <div className="input-row">
                 <input
-                  className="phone"
+                  className="long_inputfield"
                   type="text"
                   placeholder="### ### ####"
                 />
@@ -142,7 +178,7 @@ const AdmissionForm = () => {
               <label className="label">Parent / Guardian's Phone</label>
               <div className="input-row">
                 <input
-                  className="phone"
+                  className="long_inputfield"
                   type="text"
                   placeholder="### ### ####"
                 />
