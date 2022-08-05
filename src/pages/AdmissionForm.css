@@ -6,7 +6,7 @@
   font-size: 20px;
   /* margin: 20px; */
   padding-top: 20px;
-  /* padding-left: 60px; */
+  padding-left: 50px;
   min-height: 100%;
   box-sizing: border-box;
 }
@@ -113,6 +113,7 @@ span {
   border-radius: 3px;
   background-color: #e1f8f3;
   border: 1px solid #24622c;
+  color: #469050;
   padding: 0 10px;
 }
 input::placeholder {
@@ -128,11 +129,17 @@ input:focus {
 }
 
 .option-text {
-  font-family: Quicksand;
+  font-family: "Quicksand";
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
-  line-height: 1.2em;
+  line-height: 3em;
+  padding-left: 10px;
+}
+
+.check_box {
+  width: 24px;
+  height: 24px;
 }
 
 .first {
@@ -169,18 +176,46 @@ input:focus {
 }
 
 .academic {
-  width: 690px;
+  width: 678px;
   height: 120px;
   font-size: 20px;
   background-color: #e1f8f3;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 1px solid #24622c;
+  color: #469050;
+  padding: 0 10px;
 }
 .academic:hover {
   background-color: white;
 }
 .signature {
-  width: 673.5px;
-  height: 95px;
+  width: 678px;
+  height: 100px;
   font-size: 20px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  background-color: #e1f8f3;
+  border: 1px solid #24622c;
+  color: #469050;
+  padding: 0 10px;
+}
+
+.text-baseline {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #aaa;
+  bottom: 38px;
+  pointer-events: none;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .birthday {
@@ -222,6 +257,12 @@ input:focus {
   margin-left: 22px;
 }
 
+.page-footer {
+  margin: auto;
+  align-items: center;
+  margin-left: 100px;
+}
+
 button {
   vertical-align: middle;
   margin-bottom: 0;
@@ -239,6 +280,19 @@ button {
   margin-top: 10px;
   display: inline-block;
   box-sizing: content-box;
+}
+
+.abuse-disclaimer {
+  color: #469050;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 29px;
+  opacity: 0.7;
+}
+
+a {
+  color: #469050;
 }
 
 .submit {

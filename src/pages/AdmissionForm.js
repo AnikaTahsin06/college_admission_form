@@ -22,7 +22,7 @@ const AdmissionForm = () => {
                   <label className="choice">
                     <input
                       type="checkbox"
-                      className="i123-input"
+                      className="check_box"
                       value={"Computer Hardware Technician"}
                     />
                     <span className="option-text">
@@ -36,8 +36,8 @@ const AdmissionForm = () => {
                   <label className="choice">
                     <input
                       type="checkbox"
-                      className="i123-input"
-                      value={"Computer Hardware Technician2"}
+                      className="check_box"
+                      value={"Computer Network Technician"}
                     />
                     <span className="option-text">
                       Computer Network Technician
@@ -47,11 +47,11 @@ const AdmissionForm = () => {
               </div>
               <div className="input-row">
                 <div className="choice">
-                  <label className="choic1e">
+                  <label className="choice1">
                     <input
                       type="checkbox"
-                      className="i123-input"
-                      value={"Computer Hardware Technician3"}
+                      className="check_box"
+                      value={"General Electrician"}
                     />
                     <span className="option-text">General Electrician</span>
                   </label>
@@ -161,7 +161,9 @@ const AdmissionForm = () => {
             <div className="control">
               <label className="label">Applicant's Signature</label>
               <div className="input-row">
-                <input className="signature" />
+                {/* <input className="signature" /> */}
+                <canvas className="signature"></canvas>
+                <div className="text-baseline"></div>
               </div>
             </div>
           </div>
@@ -171,6 +173,14 @@ const AdmissionForm = () => {
             <button className="submit" type="submit">
               SUBMIT THE COLLEGE ADMISSION FORM
             </button>
+            <div class="abuse-disclaimer">
+              Never submit sensitive information such as passwords.
+              <b>
+                <a href="google.com" target={"_blank"}>
+                  Report abuse
+                </a>
+              </b>
+            </div>
           </div>
         </div>
       </div>
