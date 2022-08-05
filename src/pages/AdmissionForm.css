@@ -106,6 +106,27 @@ span {
   width: 700px;
 }
 
+.input-row input {
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  background-color: #e1f8f3;
+  border: 1px solid #24622c;
+  padding: 0 10px;
+}
+input::placeholder {
+  color: #469050;
+  font-family: "Quicksand", sans-serif;
+}
+input:hover {
+  background-color: white;
+}
+input:focus {
+  background-color: white;
+  border-color: #469050;
+}
+
 .option-text {
   font-family: Quicksand;
   font-size: 20px;
@@ -116,34 +137,34 @@ span {
 
 .first {
   position: relative;
-  height: 55px;
-  width: 30%;
+  height: 60px;
+  width: 28%;
 }
 
 .middle {
-  height: 55px;
+  height: 60px;
   position: relative;
   margin-left: 20px;
-  width: 30%;
+  width: 28%;
 }
 
 .last {
-  height: 55px;
+  height: 60px;
   position: relative;
   margin-left: 20px;
-  width: 30%;
+  width: 28%;
 }
 
 .parent {
-  width: 690px;
-  height: 55px;
+  width: 673.5px;
+  height: 60px;
   font-size: 20px;
   /* border-radius: 4px; */
 }
 
 .phone {
-  width: 690px;
-  height: 55px;
+  width: 673.5px;
+  height: 60px;
   font-size: 20px;
 }
 
@@ -153,48 +174,51 @@ span {
   font-size: 20px;
   background-color: #e1f8f3;
 }
+.academic:hover {
+  background-color: white;
+}
 .signature {
-  width: 690px;
+  width: 673.5px;
   height: 95px;
   font-size: 20px;
 }
 
 .birthday {
-  width: 690px;
-  height: 55px;
+  width: 673.5px;
+  height: 60px;
   font-size: 20px;
   /* border-radius: 4px; */
 }
 
 .street {
   position: relative;
-  width: 690px;
-  height: 55px;
+  width: 673.5px;
+  height: 60px;
   font-size: 20px;
   /* border-radius: 4px; */
 }
 
 .city {
   position: relative;
-  width: 48%;
-  height: 55px;
+  width: 45%;
+  height: 60px;
 }
 .state {
   position: relative;
-  width: 46.5%;
-  height: 55px;
+  width: 45%;
+  height: 60px;
   margin-left: 22px;
 }
 
 .postal {
   position: relative;
-  width: 48%;
-  height: 55px;
+  width: 45%;
+  height: 60px;
 }
 .country {
   position: relative;
-  width: 46.5%;
-  height: 55px;
+  width: 45%;
+  height: 60px;
   margin-left: 22px;
 }
 
