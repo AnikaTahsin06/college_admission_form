@@ -47,7 +47,7 @@ const AdmissionForm = () => {
               </div>
               <div className="input-row">
                 <div className="choice">
-                  <label className="choice1">
+                  <label className="choice">
                     <input
                       type="checkbox"
                       className="check_box"
